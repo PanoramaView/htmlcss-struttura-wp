@@ -1,0 +1,28 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* colori */
+header{
+    background-color: #E579E6;
+}
+nav{
+    background-color: #E1D67A;
+}
+#container{
+    background-color: #1882E6;
+}
+aside,main,section{
+    background-color: #ABCFE7;
+}
+footer{
+    background-color: #8801FE;
+}
+
+/* float e clearfix */
+.left{
+
+}
+.right{
+
+}
