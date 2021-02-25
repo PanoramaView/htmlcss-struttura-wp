@@ -1,28 +1,61 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-/* colori */
+/* colori*/
 header{
     background-color: #E579E6;
 }
 nav{
     background-color: #E1D67A;
 }
-#container{
+.container{
     background-color: #1882E6;
 }
 aside,main,section{
     background-color: #ABCFE7;
+    height: 300px;
 }
 footer{
     background-color: #8801FE;
 }
+.alto{
+    background-color: #ABCFE7;
+    height: 50px;
+}
 
 /* float e clearfix */
+body > *{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+body > *:not(.container){
+    padding: 5%;
+}
+.alto, .left,.right,main{
+    margin-bottom: 20px;
+}
 .left{
-
+    float: left;
+    width: 20%;
+    margin-right: 2%;
 }
 .right{
+    float: left;
+    width: 20%;
+}
+main{
+    width: 56%;
+    float: left;
+    margin-right: 2%;
+}
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
